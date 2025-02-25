@@ -13,16 +13,16 @@ public class VendingMachine {
         this.currentState = newState;
     }
 
-    public void selectItem(int itemIndex) {
-        currentState.selectItem(this, itemIndex);
+    public void selectItem(int items) {
+        currentState.selectItem(this, items);
     }
 
     public void insertCoin(int coin) {
         currentState.insertCoin(this, coin);
     }
 
-    public void dispenseItem(int itemIndex) {
-        currentState.dispenseItem(this, itemIndex);
+    public void dispenseItem(int items) {
+        currentState.dispenseItem(this, items);
     }
 
     public void setOutOfOrder() {
