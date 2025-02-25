@@ -39,3 +39,4 @@
 - Delegate actions like `selectItem`, `insertCoin`, `dispenseItem`, and `setOutOfOrder` to the current state object through its corresponding methods.
 
 ## UML Diagram
+![Vending Machine](https://github.com/user-attachments/assets/61f55e15-9c05-4f26-a7f5-02b8381e3484)
